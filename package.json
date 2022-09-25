@@ -1,0 +1,22 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "source": "public/index.html",
+  "scripts": {
+    "start": "parcel -p 3000 --open",
+    "build": "parcel build --dist-dir build --no-source-maps"
+  },
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-interpolate-html": "^0.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^3.0.2"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
