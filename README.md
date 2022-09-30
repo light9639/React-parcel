@@ -10,14 +10,14 @@
     yarn init -y
     ```
 
-### 🚅 React 설치
+### 🚝 React 설치
  - React 설치
 
     ```bash
     yarn add react react-dom
     ```
 
-### 🚅 Bable 설치
+### ✅ Bable 설치
  - 파셀에 내장되어 있기 때문에 필요 없다! .babelrc 파일을 만들어서 직접 설정할 수도 있지만 안 해도 Parcel이 알아서 작동한다.
 
 ### 🚅 Parcel 설치
@@ -27,7 +27,7 @@
     yarn add parcel
     ```
 
-### 🚅 Parcel 플러그인 설치
+### 🔌 Parcel 플러그인 설치
  - parcel-transformer-interpolate-html - html 파일에서 %ENV% 같은 템플릿 구문 사용 가능. 꼭 필요한 건 아니지만 CRA 기본 예제 파일에서 %PUBLIC_URL%을 사용하기 때문에 이를 변환하기 위해 설치. 파셀 v1에는 해당 기능을 하는 플러그인이 있었는데 v2엔 없어서 만들었다.
  - parcel-reporter-clean-dist - 빌드 전 빌드 폴더 안 내용을 정리하고 빌드
 
@@ -35,7 +35,7 @@
     yarn add parcel-transformer-interpolate-html parcel-reporter-clean-dist
     ```
 
-### 📦 .parcelrc 생성
+### 🎊 .parcelrc 생성
  - 만약 플러그인을 설치 안 했다면 정말 아무 설정 파일도 없었겠지만 아쉽게도 플러그인을 설치하는 바람에 설정 파일이 하나 필요하게 됐다. 
 
     ```bash
@@ -71,7 +71,7 @@
     ```
  - public/index.html 파일을 열고 위 부분을 </body> 위에 추가한다.
 
-### ➕ package.json에 source, scripts 추가
+### :tada: package.json에 source, scripts 추가
  - "main" 필드가 있으면 파셀은 라이브러리로 인식하기 때문에 지워야 한다.
 
     ```bash
